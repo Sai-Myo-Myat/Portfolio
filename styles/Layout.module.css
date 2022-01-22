@@ -1,0 +1,20 @@
+.footer {
+  display: flex;
+  flex: 1;
+  border-top: 1px solid #eee;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+}
+
+.footer a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.logo {
+  height: 1em;
+  margin-left: 0.5rem;
+}

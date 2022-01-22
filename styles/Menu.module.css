@@ -1,0 +1,30 @@
+.menu {
+  cursor: pointer;
+  display: none;
+  margin-right: 20px;
+}
+
+.line {
+  transition: all 0.5s ease;
+  background-color: #ca3e47;
+  width: 30px;
+  height: 3px;
+  margin: 5px;
+  transform-origin: right;
+}
+
+.open div:nth-child(1) {
+  transform: rotate(-45deg) translateY(-3px);
+}
+.open div:nth-child(2) {
+  opacity: 0;
+}
+.open div:nth-child(3) {
+  transform: rotate(45deg) translateY(4px);
+}
+
+@media (max-width: 700px) {
+  .menu {
+    display: block;
+  }
+}
