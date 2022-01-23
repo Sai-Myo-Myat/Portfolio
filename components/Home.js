@@ -13,8 +13,8 @@ const Home = () => {
         <TextContainer>
           <p className={commonStyle.description}>
             This is my personal Portfolio. The reason why I made this is to show
-            and practice my skills that I've been learning. And you can see more
-            about this website (technologies I used) and me at{" "}
+            and practice my skills that I have been learning. And you can see
+            more about this website (technologies I used) and me at{" "}
             <Link href="/about">
               <span className={commonStyle.span}>About </span>
             </Link>

@@ -11,7 +11,7 @@ const Projects = () => {
           <a href="https://github.com/Sai-Myo-Myat">
             <span className={commonStyle.span}>Github </span>
           </a>
-          account. Later on, I'll show my live projects here.
+          account. Later on, I will show my live projects here.
         </p>
       </div>
     </div>
