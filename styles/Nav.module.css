@@ -52,8 +52,18 @@
   align-items: center;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 500px) {
   .tabs {
     display: none;
+  }
+}
+
+@media (max-width: 300px) {
+  .nav {
+    height: auto;
+  }
+  .logo1 {
+    font-size: 1.3rem;
+    flex-direction: column;
   }
 }

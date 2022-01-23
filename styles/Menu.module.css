@@ -23,8 +23,14 @@
   transform: rotate(45deg) translateY(4px);
 }
 
-@media (max-width: 700px) {
+@media (max-width: 500px) {
   .menu {
     display: block;
+  }
+}
+
+@media (max-width: 300px) {
+  .line {
+    width: 20px;
   }
 }

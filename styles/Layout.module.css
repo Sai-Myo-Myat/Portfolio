@@ -1,20 +1,29 @@
 .footer {
   display: flex;
-  flex: 1;
   border-top: 1px solid #eee;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   height: 10vh;
 }
 
-.footer a {
+.footer div {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-grow: 1;
+}
+
+.email {
+  user-select: text;
 }
 
 .logo {
   height: 1em;
   margin-left: 0.5rem;
+}
+
+@media (max-width: 200px) {
+  .footer {
+    flex-direction: column;
+    height: auto;
+  }
 }
