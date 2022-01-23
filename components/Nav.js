@@ -15,7 +15,7 @@ const Nav = () => {
   return (
     <nav className={navStyles.nav}>
       <div className={navStyles.logoContainer}>
-        <Link href="/">
+        <Link href="/" passHref>
           <h2
             className={`${navStyles.logo1} ${yes ? `${navStyles.logo}` : ""}`}
             onClick={() => {

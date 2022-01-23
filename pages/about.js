@@ -13,7 +13,7 @@ const About = () => {
             <h3>
               <span className={commonStyle.span}>About Me</span>
             </h3>
-            I am sai myo myat attending at Technology University (Banmaw) . I'm
+            I am sai myo myat attending at Technology University (Banmaw) . I am
             originally from Myanmar (Kachin, Banmaw). I love web development and
             I want my career to be a web developer.
           </div>
@@ -25,7 +25,7 @@ const About = () => {
           <div className={commonStyle.description}>
             <p>
               This Portfolio Website is builded on Next.js framework. For
-              Styling, I don not use any framework. I just used css-module. I'm
+              Styling, I do not use any framework. I just used css-module. I am
               also thinking to use Tailwind CSS or something like that, may be
               later.
             </p>

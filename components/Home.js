@@ -15,15 +15,15 @@ const Home = () => {
             This is my personal Portfolio. The reason why I made this is to show
             and practice my skills that I have been learning. And you can see
             more about this website (technologies I used) and me at{" "}
-            <Link href="/about">
+            <Link href="/about" passHref>
               <span className={commonStyle.span}>About </span>
             </Link>
             section. For my projects, check{" "}
-            <Link href="/projects">
+            <Link href="/projects" passHref>
               <span className={commonStyle.span}>My Projects </span>
             </Link>
             out!. At the
-            <Link href="/blogs">
+            <Link href="/blogs" passHref>
               <span className={commonStyle.span}> Blogs </span>
             </Link>{" "}
             section , you will find my opinion on something. Have a Creative
