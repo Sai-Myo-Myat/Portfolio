@@ -5,7 +5,7 @@ import TextContainer from "../components/TextContainer";
 
 const About = () => {
   return (
-    <div className={commonStyle.container}>
+    <div className={commonStyle.container} id="about">
       <div className={commonStyle.mainPage}>
         <Header title="About" title2="" />
         <TextContainer>
