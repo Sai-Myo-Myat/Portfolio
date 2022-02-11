@@ -13,9 +13,9 @@ const About = () => {
             <h3>
               <span className={commonStyle.span}>About Me</span>
             </h3>
-            I am sai myo myat attending at Technology University (Banmaw) . I am
-            originally from Myanmar (Kachin, Banmaw). I love web development and
-            I want my career to be a web developer.
+            Hi Guys! I am Sai Myo Myat , a student from Technology University
+            (Banmaw). I love web development and I want my career to be a web
+            developer.
           </div>
         </TextContainer>
         <TextContainer>
