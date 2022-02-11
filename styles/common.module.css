@@ -7,6 +7,13 @@
   justify-content: center;
 }
 
+.space {
+  width: 50%;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-around;
+}
+
 .mainPage {
   width: 80%;
   height: 100%;
@@ -46,6 +53,14 @@
   line-height: 1.5;
   font-size: 1.3rem;
   text-align: left;
+}
+
+.description2 {
+  width: 50%;
+  list-style: 2;
+  font-size: 1.3rem;
+  margin-top: 10px;
+  word-spacing: 3px;
 }
 
 .textContainer {

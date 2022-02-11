@@ -1,0 +1,13 @@
+.projects {
+  width: 100%;
+}
+
+.project {
+  width: 70%;
+  background-color: #ca3e47;
+  color: #414141;
+  cursor: pointer;
+  border-radius: 10px;
+  margin: 5px 0;
+  padding: 10px;
+}
