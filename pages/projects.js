@@ -1,4 +1,5 @@
 import { server } from "../config";
+import { projects } from "../data";
 import commonStyle from "../styles/common.module.css";
 //importing components
 import Header from "../components/Header";
