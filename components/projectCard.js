@@ -5,7 +5,7 @@ import Link from "next/link";
 const ProjectCard = ({ id, header }) => {
   return (
     <div className={projectStyle.project}>
-      <Link href={`/projects/${id}`}>
+      <Link href={`/projects/${id}`} passHref>
         <h4>{header}</h4>
       </Link>
     </div>
