@@ -5,7 +5,7 @@ import commonStyle from "../styles/common.module.css";
 import Header from "../components/Header";
 import ProjectLists from "../components/projectLists";
 
-const Projects = ({ result }) => {
+const Projects = ({ result, projects }) => {
   return (
     <div className={commonStyle.container} id="projects">
       <div className={commonStyle.mainPage}>
@@ -17,7 +17,7 @@ const Projects = ({ result }) => {
           </a>
           account.
         </p>
-        <ProjectLists datas={result} />
+        <ProjectLists datas={result} projects={projects} />
       </div>
     </div>
   );
@@ -29,6 +29,7 @@ export const getStaticProps = async () => {
   return {
     props: {
       result: await res.json(),
+      projects,
     },
   };
 };

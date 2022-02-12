@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { projects } from "../../../data";
 import { server } from "../../../config";
 import commonStyle from "../../../styles/common.module.css";
 const ShowProjects = ({ project }) => {
