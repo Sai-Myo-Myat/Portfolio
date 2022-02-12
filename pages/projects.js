@@ -23,8 +23,10 @@ const Projects = ({ result }) => {
   );
 };
 
-export const getServerSideProps = async () => {
-  const res = await fetch(`${server}/api/projects`);
+const url = `${server}/api/projects`;
+
+export const getStaticProps = async () => {
+  const res = await fetch(url);
 
   return {
     props: {
