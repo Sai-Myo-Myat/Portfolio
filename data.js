@@ -9,6 +9,6 @@ export const projects = [
     id: "Booking-App-(Javascript)",
     path: "https://sai-myo-myat.github.io/bookingApp/",
     header: "Booking-App-(Javascript)",
-    description: `May be this is not useful for real because of the design . But I mak this booking app to practice my thinking in Javascript with date object.In this web app, - you can't create two same booking. - you have tocancel a booking one minute in advance ( that should be one day ) andmore...`,
+    description: `May be this is not useful for real because of the design .But I mak this booking app to practice my thinking in Javascript with date object.In this web app, - you can't create two same booking. - you have to cancel a booking one minute in advance ( that should be one day ) andmore...`,
   },
 ];

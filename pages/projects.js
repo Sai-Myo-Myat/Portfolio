@@ -5,7 +5,7 @@ import commonStyle from "../styles/common.module.css";
 import Header from "../components/Header";
 import ProjectLists from "../components/projectLists";
 
-const Projects = ({ result, projects }) => {
+const Projects = ({ result }) => {
   return (
     <div className={commonStyle.container} id="projects">
       <div className={commonStyle.mainPage}>
@@ -23,13 +23,12 @@ const Projects = ({ result, projects }) => {
   );
 };
 
-export const getStaticProps = async () => {
+export const getServerSideProps = async () => {
   const res = await fetch(`${server}/api/projects`);
 
   return {
     props: {
       result: await res.json(),
-      projects,
     },
   };
 };
