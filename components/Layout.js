@@ -1,15 +1,22 @@
 import Head from "next/head";
 import styles from "../styles/Layout.module.css";
 //importing components
-import Nav from "./Nav";
-import SideMenu from "./SideMenu";
-import Footer from "./Footer";
 import { Context } from "./Contex";
 import { ContextTwo } from "./ContextTwo";
+import Footer from "./Footer";
+import Nav from "./Nav";
+import SideMenu from "./SideMenu";
 
 const Layout = ({ children }) => {
   return (
     <div className={styles.layout}>
+      <div className={styles.warning}>
+        <p>
+          This portfolio is outdated and no longer maintained. Please visit my
+          <a href="https://saimyomyat.dev"> latest portfolio</a> for updated
+          projects and information.
+        </p>
+      </div>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Sai Myo Myat</title>

@@ -2,6 +2,21 @@
   position: relative;
 }
 
+.warning {
+  background-color: #ca3e47;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 10px;
+  text-align: center;
+  font-weight: 400;
+  font-size: larger;
+}
+
+.warning a {
+  text-decoration: underline;
+}
+
 .footer {
   display: flex;
   border-top: 1px solid #eee;
@@ -29,5 +44,10 @@
   .footer {
     flex-direction: column;
     height: auto;
+  }
+
+  .warning {
+    font-weight: normal;
+    padding: 15px 5px;
   }
 }
