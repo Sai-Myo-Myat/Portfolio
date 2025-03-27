@@ -1,9 +1,8 @@
-import { server } from "../config";
 import commonStyle from "../styles/common.module.css";
 //importing components
 import Header from "../components/Header";
 
-const Projects = ({ result }) => {
+const Projects = ({}) => {
   return (
     <div className={commonStyle.container} id="projects">
       <div className={commonStyle.mainPage}>
@@ -18,18 +17,6 @@ const Projects = ({ result }) => {
       </div>
     </div>
   );
-};
-
-const url = `${server}/api/projects`;
-
-export const getStaticProps = async () => {
-  const res = await fetch(url);
-
-  return {
-    props: {
-      result: await res.json(),
-    },
-  };
 };
 
 export default Projects;
